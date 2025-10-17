@@ -3,10 +3,11 @@ package main
 import (
 	"context"
 	"fmt"
-	sensorhumidity "progect_golang/sensorHumidity"
-	sensorprssure "progect_golang/sensorpressure"
-	"progect_golang/sensorseismic"
+	"progect_golang/meteocentr/sensorhumidity"
+	sensorprssure "progect_golang/meteocentr/sensorpressure"
+	"progect_golang/meteocentr/sensorseismic"
 	"sync"
+
 	"time"
 )
 
